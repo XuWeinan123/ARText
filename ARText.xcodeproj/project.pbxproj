@@ -13,9 +13,34 @@
 		E14FCD022030935400899055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14FCD002030935400899055 /* Main.storyboard */; };
 		E14FCD042030935400899055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14FCD032030935400899055 /* Assets.xcassets */; };
 		E14FCD072030935400899055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14FCD052030935400899055 /* LaunchScreen.storyboard */; };
+		E14FCD1E20314B4F00899055 /* CreatObjectInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FCD1020314B4E00899055 /* CreatObjectInteraction.swift */; };
+		E14FCD1F20314B4F00899055 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FCD1120314B4E00899055 /* FocusSquare.swift */; };
+		E14FCD2020314B4F00899055 /* CreatObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FCD1220314B4E00899055 /* CreatObject.swift */; };
+		E14FCD2120314B4F00899055 /* VirtualObjectLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FCD1320314B4E00899055 /* VirtualObjectLoader.swift */; };
+		E14FCD2220314B4F00899055 /* FocusSquareSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FCD1420314B4E00899055 /* FocusSquareSegment.swift */; };
+		E14FCD2320314B4F00899055 /* ARVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FCD1520314B4E00899055 /* ARVC.swift */; };
+		E14FCD2420314B4F00899055 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FCD1620314B4E00899055 /* Utilities.swift */; };
+		E14FCD2520314B4F00899055 /* MyARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FCD1720314B4E00899055 /* MyARView.swift */; };
+		E14FCD2620314B4F00899055 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FCD1820314B4E00899055 /* VirtualObject.swift */; };
+		E14FCD2720314B4F00899055 /* ThresholdPanGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FCD1920314B4E00899055 /* ThresholdPanGesture.swift */; };
+		E14FCD2820314B4F00899055 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FCD1A20314B4F00899055 /* StatusViewController.swift */; };
+		E14FCD2920314B4F00899055 /* ARText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FCD1B20314B4F00899055 /* ARText.swift */; };
+		E14FCD2A20314B4F00899055 /* FontStyleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FCD1C20314B4F00899055 /* FontStyleVC.swift */; };
+		E14FCD2B20314B4F00899055 /* TextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FCD1D20314B4F00899055 /* TextNode.swift */; };
+		E14FCD302031523000899055 /* UploadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14FCD2E2031523000899055 /* UploadView.xib */; };
+		E14FCD32203158C800899055 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FCD31203158C800899055 /* UploadView.swift */; };
+		E14FCD3420315D7700899055 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FCD3320315D7700899055 /* Popover.swift */; };
+		E14FCD3620315FE200899055 /* Media.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E14FCD3520315FE100899055 /* Media.scnassets */; };
+		E14FCD3D2031767500899055 /* 黄油体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E14FCD372031712D00899055 /* 黄油体.ttf */; };
+		E14FCD3E2031767500899055 /* 思源宋体.otf in Resources */ = {isa = PBXBuildFile; fileRef = E14FCD382031712D00899055 /* 思源宋体.otf */; };
+		E14FCD3F2031767500899055 /* 文泉驿正黑.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E14FCD392031712D00899055 /* 文泉驿正黑.ttf */; };
+		FE9CD06D1F6B3B5BD5D07586 /* Pods_ARText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280C644DEAA604464212C40F /* Pods_ARText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		280C644DEAA604464212C40F /* Pods_ARText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A79FBBFEF511F00788CBAB /* Pods-ARText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARText.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARText/Pods-ARText.debug.xcconfig"; sourceTree = "<group>"; };
+		7FC31460BAA7A83A4B74B9C5 /* Pods-ARText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARText.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARText/Pods-ARText.release.xcconfig"; sourceTree = "<group>"; };
 		E14FCCF72030935400899055 /* ARText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14FCCFA2030935400899055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E14FCCFC2030935400899055 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +49,27 @@
 		E14FCD032030935400899055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E14FCD062030935400899055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E14FCD082030935400899055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14FCD1020314B4E00899055 /* CreatObjectInteraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatObjectInteraction.swift; sourceTree = "<group>"; };
+		E14FCD1120314B4E00899055 /* FocusSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+		E14FCD1220314B4E00899055 /* CreatObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatObject.swift; sourceTree = "<group>"; };
+		E14FCD1320314B4E00899055 /* VirtualObjectLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualObjectLoader.swift; sourceTree = "<group>"; };
+		E14FCD1420314B4E00899055 /* FocusSquareSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquareSegment.swift; sourceTree = "<group>"; };
+		E14FCD1520314B4E00899055 /* ARVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARVC.swift; sourceTree = "<group>"; };
+		E14FCD1620314B4E00899055 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E14FCD1720314B4E00899055 /* MyARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyARView.swift; sourceTree = "<group>"; };
+		E14FCD1820314B4E00899055 /* VirtualObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
+		E14FCD1920314B4E00899055 /* ThresholdPanGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThresholdPanGesture.swift; sourceTree = "<group>"; };
+		E14FCD1A20314B4F00899055 /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		E14FCD1B20314B4F00899055 /* ARText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARText.swift; sourceTree = "<group>"; };
+		E14FCD1C20314B4F00899055 /* FontStyleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontStyleVC.swift; sourceTree = "<group>"; };
+		E14FCD1D20314B4F00899055 /* TextNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextNode.swift; sourceTree = "<group>"; };
+		E14FCD2E2031523000899055 /* UploadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UploadView.xib; sourceTree = "<group>"; };
+		E14FCD31203158C800899055 /* UploadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		E14FCD3320315D7700899055 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
+		E14FCD3520315FE100899055 /* Media.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Media.scnassets; sourceTree = "<group>"; };
+		E14FCD372031712D00899055 /* 黄油体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "黄油体.ttf"; sourceTree = "<group>"; };
+		E14FCD382031712D00899055 /* 思源宋体.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "思源宋体.otf"; sourceTree = "<group>"; };
+		E14FCD392031712D00899055 /* 文泉驿正黑.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "文泉驿正黑.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +77,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE9CD06D1F6B3B5BD5D07586 /* Pods_ARText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C52DF267DD046CB2739934D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48A79FBBFEF511F00788CBAB /* Pods-ARText.debug.xcconfig */,
+				7FC31460BAA7A83A4B74B9C5 /* Pods-ARText.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5D9702C69AFD50C7F0560F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				280C644DEAA604464212C40F /* Pods_ARText.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E14FCCEE2030935300899055 = {
 			isa = PBXGroup;
 			children = (
 				E14FCCF92030935400899055 /* ARText */,
 				E14FCCF82030935400899055 /* Products */,
+				7C52DF267DD046CB2739934D /* Pods */,
+				D5D9702C69AFD50C7F0560F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +122,44 @@
 		E14FCCF92030935400899055 /* ARText */ = {
 			isa = PBXGroup;
 			children = (
+				E14FCD372031712D00899055 /* 黄油体.ttf */,
+				E14FCD382031712D00899055 /* 思源宋体.otf */,
+				E14FCD392031712D00899055 /* 文泉驿正黑.ttf */,
 				E14FCCFA2030935400899055 /* AppDelegate.swift */,
 				E14FCCFC2030935400899055 /* art.scnassets */,
 				E14FCCFE2030935400899055 /* ViewController.swift */,
 				E14FCD002030935400899055 /* Main.storyboard */,
+				E14FCD31203158C800899055 /* UploadView.swift */,
+				E14FCD2E2031523000899055 /* UploadView.xib */,
+				E14FCD2C20314B5600899055 /* ARKit */,
 				E14FCD032030935400899055 /* Assets.xcassets */,
+				E14FCD3520315FE100899055 /* Media.scnassets */,
 				E14FCD052030935400899055 /* LaunchScreen.storyboard */,
 				E14FCD082030935400899055 /* Info.plist */,
+				E14FCD3320315D7700899055 /* Popover.swift */,
 			);
 			path = ARText;
+			sourceTree = "<group>";
+		};
+		E14FCD2C20314B5600899055 /* ARKit */ = {
+			isa = PBXGroup;
+			children = (
+				E14FCD1B20314B4F00899055 /* ARText.swift */,
+				E14FCD1520314B4E00899055 /* ARVC.swift */,
+				E14FCD1220314B4E00899055 /* CreatObject.swift */,
+				E14FCD1020314B4E00899055 /* CreatObjectInteraction.swift */,
+				E14FCD1120314B4E00899055 /* FocusSquare.swift */,
+				E14FCD1420314B4E00899055 /* FocusSquareSegment.swift */,
+				E14FCD1C20314B4F00899055 /* FontStyleVC.swift */,
+				E14FCD1720314B4E00899055 /* MyARView.swift */,
+				E14FCD1A20314B4F00899055 /* StatusViewController.swift */,
+				E14FCD1D20314B4F00899055 /* TextNode.swift */,
+				E14FCD1920314B4E00899055 /* ThresholdPanGesture.swift */,
+				E14FCD1620314B4E00899055 /* Utilities.swift */,
+				E14FCD1820314B4E00899055 /* VirtualObject.swift */,
+				E14FCD1320314B4E00899055 /* VirtualObjectLoader.swift */,
+			);
+			path = ARKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E14FCD0B2030935400899055 /* Build configuration list for PBXNativeTarget "ARText" */;
 			buildPhases = (
+				1292531C7477AE69CF8A09FD /* [CP] Check Pods Manifest.lock */,
 				E14FCCF32030935400899055 /* Sources */,
 				E14FCCF42030935400899055 /* Frameworks */,
 				E14FCCF52030935400899055 /* Resources */,
+				CFD4A477D7C60108EE4DDA28 /* [CP] Embed Pods Frameworks */,
+				3424265333A4E93A9C73447F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,22 +224,101 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14FCD3D2031767500899055 /* 黄油体.ttf in Resources */,
+				E14FCD3E2031767500899055 /* 思源宋体.otf in Resources */,
+				E14FCD3F2031767500899055 /* 文泉驿正黑.ttf in Resources */,
+				E14FCD3620315FE200899055 /* Media.scnassets in Resources */,
 				E14FCCFD2030935400899055 /* art.scnassets in Resources */,
 				E14FCD072030935400899055 /* LaunchScreen.storyboard in Resources */,
 				E14FCD042030935400899055 /* Assets.xcassets in Resources */,
+				E14FCD302031523000899055 /* UploadView.xib in Resources */,
 				E14FCD022030935400899055 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1292531C7477AE69CF8A09FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARText-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3424265333A4E93A9C73447F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARText/Pods-ARText-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFD4A477D7C60108EE4DDA28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARText/Pods-ARText-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EFColorPicker/EFColorPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EFColorPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARText/Pods-ARText-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E14FCCF32030935400899055 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14FCD2A20314B4F00899055 /* FontStyleVC.swift in Sources */,
+				E14FCD3420315D7700899055 /* Popover.swift in Sources */,
 				E14FCCFF2030935400899055 /* ViewController.swift in Sources */,
+				E14FCD2320314B4F00899055 /* ARVC.swift in Sources */,
+				E14FCD1F20314B4F00899055 /* FocusSquare.swift in Sources */,
+				E14FCD2B20314B4F00899055 /* TextNode.swift in Sources */,
 				E14FCCFB2030935400899055 /* AppDelegate.swift in Sources */,
+				E14FCD1E20314B4F00899055 /* CreatObjectInteraction.swift in Sources */,
+				E14FCD2620314B4F00899055 /* VirtualObject.swift in Sources */,
+				E14FCD32203158C800899055 /* UploadView.swift in Sources */,
+				E14FCD2820314B4F00899055 /* StatusViewController.swift in Sources */,
+				E14FCD2020314B4F00899055 /* CreatObject.swift in Sources */,
+				E14FCD2420314B4F00899055 /* Utilities.swift in Sources */,
+				E14FCD2920314B4F00899055 /* ARText.swift in Sources */,
+				E14FCD2520314B4F00899055 /* MyARView.swift in Sources */,
+				E14FCD2220314B4F00899055 /* FocusSquareSegment.swift in Sources */,
+				E14FCD2120314B4F00899055 /* VirtualObjectLoader.swift in Sources */,
+				E14FCD2720314B4F00899055 /* ThresholdPanGesture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +453,7 @@
 		};
 		E14FCD0C2030935400899055 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A79FBBFEF511F00788CBAB /* Pods-ARText.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +469,7 @@
 		};
 		E14FCD0D2030935400899055 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC31460BAA7A83A4B74B9C5 /* Pods-ARText.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
